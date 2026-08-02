@@ -1,7 +1,29 @@
 aid: wisear
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wisear.png
 name: Wisear
-description: Wisear is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wisear is a Paris-based neurotechnology company building an AI-powered neural
+  interface that lets people control devices through voiceless and touchless
+  commands. Its technology reads biosignals captured by everyday wearables such
+  as wireless earphones, AR/VR headsets and smartglasses, turning subtle facial
+  and neural gestures into hands-free device controls. Wisear targets use cases
+  across consumer audio, industrial augmented reality, walkie-talkie and
+  emergency communications, gaming headsets, the metaverse and accessibility.
+  Surfaced as a Techstars portfolio company and added to the API Evangelist
+  network; as of this enrichment pass Wisear publishes no public developer API,
+  SDK, or documentation portal — this profile captures its public identity and
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/wisear/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Neural Interface
+- Brain-Computer Interface
+- Wearables
+- Hands-Free Controls
+- AR/VR
+- Artificial Intelligence
+- Accessibility
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wisear-domain-security.yml
 - type: Website
   url: https://wisear.io/
+- type: About
+  url: https://wisear.io/company
+- type: Support
+  url: https://wisear.io/contact
+- type: PrivacyPolicy
+  url: https://wisear.io/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/wisear/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCADOGy4dV7Bf9GQeaH8iRpQ
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
